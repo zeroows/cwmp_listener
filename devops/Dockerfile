@@ -20,9 +20,9 @@ WORKDIR /app
 COPY --from=builder /app/target/x86_64-unknown-linux-musl/release/cwmp-listener /app/
 
 # Set environment variables
-ENV APP_HOST=0.0.0.0
-ENV APP_PORT=7547
-ENV APP_LOG_LVL=debug
+ENV APPLICATION__HOST=0.0.0.0
+ENV APPLICATION__PORT=7547
+ENV APPLICATION__LOG_LVL=debug
 
 # Expose the port
 EXPOSE 7547
