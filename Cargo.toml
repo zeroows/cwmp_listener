@@ -1,5 +1,6 @@
 [package]
 name = "cwmp-listener"
+description = "A simple, secure CWMP (TR-069) listener that monitors and logs incoming ACS (Auto Configuration Server) communications."
 version = "0.1.0"
 edition = "2021"
 
