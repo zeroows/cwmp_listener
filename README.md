@@ -111,7 +111,7 @@ cargo test
 
 ## License
 
-[Add your license information here]
+MIT
 
 ## Contributing
 
