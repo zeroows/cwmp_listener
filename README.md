@@ -1,5 +1,7 @@
 # CWMP Listener
 
+[![Release](https://github.com/zeroows/cwmp_listener/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/zeroows/cwmp_listener/actions/workflows/release.yaml)
+
 A simple, secure CWMP (TR-069) listener that monitors and logs incoming ACS (Auto Configuration Server) communications. This tool is useful for debugging and monitoring TR-069 device interactions.
 
 ## Features
