@@ -1,0 +1,19 @@
+POST /UD/act?1 HTTP/1.1
+Host: 192.168.1.1:7547
+User -Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+SOAPAction: urn:dslforum-org:service:Time:1#SetNTPServers
+Content -Type: text/xml
+Content -Length: 534
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<u:SetNTPServers xmlns:u="urn:dslforum-org:service:Time:1"›
+<NewNTPServer1>192.0.2.1</NewNTPServer1>
+<NewNTPServer2></NewNTPServer2>
+<NewNTPServer3></NewNTPServer3>
+<NewNTPServer4></NewNTPServer4>
+<NewNTPServer5></NewNTPServer5>
+</u:SetNTPServers>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,1 @@
+curl --header "Content-Type: text/xml;charset=UTF-8" --data @data/re.xml http://0.0.0.0:7547/ --header "SOAPAction: urn:dslforum-org:service:Time:1#SetNTPServers"
