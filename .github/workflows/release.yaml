@@ -30,8 +30,8 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=sha,prefix=main-
-            type=ref,event=branch
+            type=sha,prefix=master-
+            type=semver,pattern=v{{version}}
           labels: |
             maintainer=${{ github.repository_owner }}
             org.opencontainers.image.title=${{ github.repository }}
